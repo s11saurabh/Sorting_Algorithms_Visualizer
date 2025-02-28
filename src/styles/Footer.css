@@ -1,0 +1,72 @@
+.footer {
+    background-color: #f8f9fa;
+    padding: 30px 20px;
+    margin-top: 30px;
+    border-top: 1px solid #e9ecef;
+  }
+  
+  .algorithm-info-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .algo-card {
+    background-color: white;
+    border-radius: 6px;
+    padding: 15px;
+    width: 200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .algo-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .algo-card h4 {
+    margin-bottom: 10px;
+    color: #4b6cb7;
+    font-size: 16px;
+    border-bottom: 2px solid #f1f3f5;
+    padding-bottom: 5px;
+  }
+  
+  .algo-card p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #6c757d;
+  }
+  
+  .copyright {
+    text-align: center;
+    color: #6c757d;
+    font-size: 14px;
+  }
+  
+
+  @media (max-width: 768px) {
+    .algorithm-info-cards {
+      gap: 10px;
+    }
+    
+    .algo-card {
+      width: calc(50% - 10px);
+      min-width: 150px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .algorithm-info-cards {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .algo-card {
+      width: 100%;
+      max-width: 250px;
+    }
+  }
