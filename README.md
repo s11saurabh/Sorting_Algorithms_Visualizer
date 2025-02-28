@@ -6,6 +6,12 @@ A React-based interactive web application that visualizes six popular sorting al
 
 [View Live Demo](https://saurabh-sorting-algorithms-git-main-saurabhs-projects-d236dc8e.vercel.app/)
 
+<img width="1468" alt="image" src="https://github.com/user-attachments/assets/87ef920a-49a3-4014-9fc7-32b17cb09995" />
+<img width="1470" alt="image" src="https://github.com/user-attachments/assets/92c877db-2a17-48be-a8a8-7119bb9344dc" />
+<img width="1470" alt="image" src="https://github.com/user-attachments/assets/d0dcf68f-8b87-441b-ac9a-4fe2d53829ab" />
+<img width="1466" alt="image" src="https://github.com/user-attachments/assets/a00743ed-98a0-41c8-a115-96140a6ef9ed" />
+
+
 ## Table of Contents
 
 - [Features](#features)
